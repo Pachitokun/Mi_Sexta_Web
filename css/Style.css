@@ -1,0 +1,54 @@
+body{
+    background: url(../img/background.jpg);
+}
+
+.muñeca{
+    position: relative;
+    margin-top: -200px;
+   
+}
+h1{
+    color: white;
+    background-color:dimgray;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+
+}
+h2{
+    color: aliceblue;
+    font-family: 'Phudu', cursive;
+}
+div{
+    position:absolute;
+  height:400px;
+  width:400px;
+  top: 510px;
+  left : 1000px;
+  z-index: 1;
+}
+h3{
+    font-family: 'Phudu', cursive;
+    color: ghostwhite;
+    font-size: 20;
+}
+
+button{
+    
+    font-weight: semibold;
+    font-size: 1rem;
+    color: #444;
+    padding: 1rem 1.5rem;
+    border: 2px solid #eee;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all 1s ease;
+    box-shadow: .5rem .5rem 1rem #ccc -.5rem -.5rem 1rem #fff;
+
+
+}
+button:hover{
+    box-shadow: .5rem .5rem 1rem #fff -.5rem -.5rem 1rem #ccc;
+}
+button:active{
+    box-shadow: inset .2rem .2rem 1rem #fff -.2rem -.5rem 1rem #ccc;
+}
